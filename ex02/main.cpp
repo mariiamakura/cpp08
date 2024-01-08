@@ -8,7 +8,7 @@ void pdfTest() {
     std::cout << mstack.top() << std::endl;
     std::cout << "-----------------" << std::endl;
     mstack.pop(); //Removes the element on top of the stack, effectively reducing its size by one.
-    std::cout << mstack.size() << std::endl;
+    std::cout << "size: " << mstack.size() << std::endl;
     std::cout << "-----------------" << std::endl;
     mstack.push(3);
     mstack.push(5);
